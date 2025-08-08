@@ -43,7 +43,7 @@ This is data from 2 years ago. We will look at the "Date/Block Dataset" tab, whi
 
 # 4. Load the data into RStudio
 
-The code box below reads the spreadsheet from Google Drive.
+The code box below rea1ds the spreadsheet from Google Drive.
 
 **Click on the greed triangle in the upper right corner of the code box.**
 
@@ -82,7 +82,7 @@ mean(frq_scores)
 Edit the code block box below so it's like the one from step 6, but this time for the `mcq_scores` and then run it. It will tell you that the average MCQ score was about 73%.
 
 ```{r}
-
+mean(mcq_scores)
 ```
 
 # 8. Graph the FRQ scores
@@ -98,6 +98,7 @@ hist(frq_scores)
 Edit the code block box below so it's like the one from step 8, but this time for the `mcq_scores` and then run it.It will make a histogram plot of the MCQ scores.
 
 ```{r}
+hist(mcq_scores)
 
 ```
 
